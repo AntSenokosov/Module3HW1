@@ -6,7 +6,30 @@ using System.Threading.Tasks;
 
 namespace Module3HW1
 {
-    public class ListT
+    public class ListT<T>
     {
+        private T[] _list;
+
+        public void Add(T item)
+        {
+        }
+
+        public void AddRange(T item)
+        {
+        }
+
+        public bool Remove(T item)
+        {
+            return true;
+        }
+
+        public bool RemoveAt(int index)
+        {
+            return true;
+        }
+
+        public void Sort()
+        {
+        }
     }
 }
